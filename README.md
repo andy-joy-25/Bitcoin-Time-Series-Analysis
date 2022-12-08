@@ -12,7 +12,7 @@ The trend line seemed to suggest that the trend of the Adjusted Closing Price of
 
 ## ARIMA(0,1,0) Model
 
-After analysing the ACF and PACF plots, testing for stationarity using the ADF test and alos, cross verifying empirically obtained conclusions with those obtained by using AIC, **an ARIMA(0,1,0) model without drift** was finally selected for the bitcoin time series, i.e., the bitcoin time series, to the best possible approximation obeyed the following equation: Δ𝑦<sub>𝑡</sub>=𝑢<sub>𝑡</sb> [or, 𝑦<sub>𝑡</sub>−𝑦<sub>𝑡−1</sub>=𝑢<sub>𝑡</sub>] which was clearly, a Random Walk model! Thus, it was confirmed that the Adjusted Closing Price of Bitcoin followed a Random/Stochastic behaviour; in line with the initial observation of randomness from its time series plot. 
+After analysing the ACF and PACF plots, testing for stationarity using the ADF test and alos, cross verifying empirically obtained conclusions with those obtained by using AIC, **an ARIMA(0,1,0) model without drift** was finally selected for the bitcoin time series, i.e., the bitcoin time series, to the best possible approximation obeyed the following equation: Δ𝑦<sub>𝑡</sub>=𝑢<sub>𝑡</sub> [or, 𝑦<sub>𝑡</sub>−𝑦<sub>𝑡−1</sub>=𝑢<sub>𝑡</sub>] which was clearly, a Random Walk model! Thus, it was confirmed that the Adjusted Closing Price of Bitcoin followed a Random/Stochastic behaviour; in line with the initial observation of randomness from its time series plot. 
 
 ![image](https://user-images.githubusercontent.com/79297451/206381694-d993ef78-4ed1-4b49-8db0-20a4c81a193a.png)
 
